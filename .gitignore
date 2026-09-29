@@ -1,0 +1,22 @@
+# Raw reads and external experimental data
+data/raw/
+data/external/
+# Reference sequences and generated indices
+reference_genome/
+# Derived outputs and run logs
+results/
+*.bam
+*.bai
+*.cram
+*.crai
+*.vcf
+*.vcf.gz
+*.vcf.gz.tbi
+*.g.vcf.gz
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+# Local sample inventory may contain sensitive metadata
+config/samples.tsv
+# Keep directories by adding a README when needed, not placeholder datasets
